@@ -16,9 +16,6 @@ class Solution {
             if (prefix.length() > m) {
                 prefix.setLength(m);
             }
-
-            if (prefix.length() == 0)
-                return "";
         }
 
         return prefix.toString();
