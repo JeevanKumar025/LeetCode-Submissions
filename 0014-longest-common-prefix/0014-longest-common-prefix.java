@@ -8,7 +8,7 @@ class Solution {
 
             for (int j = 0; j < m; j++) {
                 if (prefix.charAt(j) != strs[i].charAt(j)) {
-                    prefix.delete(j, prefix.length());
+                    prefix.setLength(j);
                     break;
                 }
             }
